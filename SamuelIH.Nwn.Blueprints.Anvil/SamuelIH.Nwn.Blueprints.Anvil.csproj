@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="NWN.Anvil" Version="8193.36.1" />
+      <PackageReference Include="NWN.Native" Version="8193.36.2" />
+      <PackageReference Include="SamuelIH.Nwn.Blueprints" Version="1.0.0" />
+      <PackageReference Include="YamlDotNet" Version="15.1.4" />
+    </ItemGroup>
+
+</Project>
