@@ -5,6 +5,12 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Title>Blueprint Instantiator</Title>
+        <PackageProjectUrl>https://github.com/Samuel-IH/SamuelIH.Nwn.Blueprints.Anvil</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/Samuel-IH/SamuelIH.Nwn.Blueprints.Anvil</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
     </PropertyGroup>
 
     <ItemGroup>
@@ -12,6 +18,7 @@
       <PackageReference Include="NWN.Native" Version="8193.36.2" />
       <PackageReference Include="SamuelIH.Nwn.Blueprints" Version="1.0.0" />
       <PackageReference Include="YamlDotNet" Version="15.1.4" />
+      <None Include="../README.md" Pack="true" PackagePath="\"/>
     </ItemGroup>
 
 </Project>
