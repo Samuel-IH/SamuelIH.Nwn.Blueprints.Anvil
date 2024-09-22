@@ -1,10 +1,12 @@
 using Anvil.API;
+using Anvil.Services;
 using HackyJunk;
 using NLog;
 using NWN.Native.API;
 
 namespace SamuelIH.Nwn.Blueprints.Anvil;
 
+[ServiceBinding(typeof(Instantiator))]
 public class Instantiator
 {
     private static readonly Logger Log = LogManager.GetCurrentClassLogger();

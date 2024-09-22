@@ -2,6 +2,7 @@ using Anvil.API;
 using HackyJunk;
 using NLog;
 using NWN.Native.API;
+using YamlDotNet.Core.Tokens;
 using ItemProperty = Anvil.API.ItemProperty;
 
 namespace SamuelIH.Nwn.Blueprints.Anvil;
