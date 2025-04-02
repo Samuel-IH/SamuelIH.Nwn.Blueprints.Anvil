@@ -11,13 +11,13 @@
         <RepositoryType>git</RepositoryType>
         <PackageReadmeFile>README.md</PackageReadmeFile>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
-        <Version>37.0.1</Version>
+        <Version>37.0.2</Version>
     </PropertyGroup>
 
     <ItemGroup>
       <PackageReference Include="NWN.Anvil" Version="8193.37.0" />
       <PackageReference Include="NWN.Native" Version="8193.37.3" />
-      <PackageReference Include="SamuelIH.Nwn.Blueprints" Version="1.0.0" />
+      <PackageReference Include="SamuelIH.Nwn.Blueprints" Version="2.0.2" />
       <PackageReference Include="YamlDotNet" Version="15.1.4" />
       <None Include="../README.md" Pack="true" PackagePath="\"/>
     </ItemGroup>
